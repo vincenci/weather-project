@@ -4,7 +4,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      weather project
+     <h1> weather project</h1>
+     
     </div>
   );
 }
