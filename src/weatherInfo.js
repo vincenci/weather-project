@@ -18,8 +18,8 @@ export default function WeatherInfo(props){
         <span className="text-capitalize">{props.data.description}</span>
         <br/>
           
-            <span>Humidity: {props.data.humidity}%</span>
-            <span>Wind: {props.data.wind} km/h</span> 
+            <span>Humidity: <strong>{props.data.humidity}%</strong></span>
+            <span>Wind: <strong>{props.data.wind} km/h</strong> </span> 
           
         </div>
         <div className="col-6">
