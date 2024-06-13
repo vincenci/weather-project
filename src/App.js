@@ -1,35 +1,13 @@
 
 import './App.css';
-import WeatherInfo from './weatherInfo';
+import Weather from './weather';
 
 function App() {
   return (
   <div className='weatherProject'>
     <div className="App">
+      <Weather defaultCity="Nairobi" />
      
-      <div className="Weather">
-        <form >
-          <div className="row">
-            <div className="col-9">
-              <input
-                type="search"
-                placeholder="Enter a city.."
-                className="form-control"
-                autoFocus="on"
-                
-              />
-            </div>
-            <div className="col-3">
-              <input
-                type="submit"
-                value="Search"
-                className="btn btn-primary w-100"
-              />
-            </div>
-          </div>
-        </form>
-
-         <WeatherInfo/>
       <footer>
           This project was coded by{" "}
           <a
@@ -58,7 +36,7 @@ function App() {
         </footer>
     </div>
     </div>
-    </div>
+    
   );
 }
 
